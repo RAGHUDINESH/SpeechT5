@@ -1,0 +1,16 @@
+v2: checkpoint 85, (started from ck15 and trained using fairseq) beam 30, no ctc, no lm
+v3: v2 without beam (beam=5)
+v4: v0/checkpoint_best, no ctc, no lm, beam 30
+v5: checkpoint 85, beam 1, no ctc, no lm
+v6: v1/checkpoint_best, no ctc, no lm, beam 1
+v7: v1/checkpoint_best, no ctc, no lm, beam 30
+v8: Sampling topp 0.75, topk 3
+v9:
+V10: V2/checkpoint_best beam 45
+V11: V2/checkpoint_best beam 15
+V12: CD
+V13: V2/checkpoint_best beam 60
+V14: V2/checkpoint_best beam 75
+v16: ordered, soft print alignment
+v17: ordered
+V18: 4GRAM
