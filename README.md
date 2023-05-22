@@ -28,7 +28,8 @@ Official PyTorch implementation and pretrained models of SpeechT5
 ```
 git submodule update --init fairseq/
 pip install --editable fairseq/
-pip install espnet
+pip install espnet/
+pip install slue_evaluator
 ```
 
 
